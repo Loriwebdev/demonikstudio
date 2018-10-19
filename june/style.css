@@ -8376,3 +8376,34 @@ footer#colophon .widget:not(.widget_mc4wp_form_widget):not(.social_widget) .widg
     border-width:1px;
     border-style:solid;
 }
+
+/* Custom CSS */
+
+.search-form {
+	display: flex;
+	align-items: center;
+}
+
+.search-element .select2-container {
+	margin-top: 0px;
+}
+
+.header-col .header-el .cl-icon-text {
+	display: flex;
+	flex-direction: row;
+}
+
+.header-el .cl-icon-text span {
+	margin-bottom: 4px;
+	margin-left: 8px;
+}
+
+.shop.tool .wrapper {
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 11px;
+}
+
+.extra_tools_wrapper .tool.shop div.cart-details {
+	padding-left: 20px;
+}

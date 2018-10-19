@@ -1,0 +1,57 @@
+/*
+Theme Name: newChildJune
+Theme Uri:  http://ashokg.in
+Author:     MRybus
+Author Uri: https://mrybus.com
+Template:   june
+Version:    1.0
+License:    GNU General Public License v2 or later
+Version:    1.0
+*/
+
+#top_footer {
+	display: none;
+}
+
+#custom-img-section {
+	margin-top: -250px;
+}
+
+#custom-img-section>div.container-content {
+	width: 100%;
+	opacity: 0.5;
+}
+
+#custom-img-section #img-transparent-part {
+	height: 300px;
+}
+
+#custom-img-section #img-transparent-part .bg-layer {
+	background-repeat: round !important;
+}
+
+#custom-img-section.middle-section {
+	z-index: 1000;
+	margin-top: -250px;
+}
+
+#custom-img-section.middle-section>div.container-content {
+	opacity: 1;
+}
+
+#custom-img-section.middle-section #img-transparent-part {
+	height: 490px;
+}
+
+#custom-img-section.bottom-section {
+	margin-top: -350px;
+}
+
+#custom-img-section.bottom-section>div.container-content {
+	opacity: 1;
+}
+
+#custom-img-section.bottom-section #img-transparent-part {
+	height: 380px;
+}
+

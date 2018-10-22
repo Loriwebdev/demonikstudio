@@ -32,7 +32,7 @@ Version:    1.0
 
 #custom-img-section.middle-section {
 	z-index: 1000;
-	margin-top: -250px;
+	margin-top: -270px;
 }
 
 #custom-img-section.middle-section>div.container-content {
@@ -53,5 +53,47 @@ Version:    1.0
 
 #custom-img-section.bottom-section #img-transparent-part {
 	height: 380px;
+}
+
+#custom-img-section #img-transparent-part p {
+	margin: 0;
+}
+
+div.buttons-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+div.buttons-section .cart-button {
+	margin: 0 100px;
+}
+
+div.buttons-section>div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+div.buttons-section img {
+	width: 200px;
+	height: 200px;
+}
+
+div.buttons-section h4 {
+	color: white;
+	font-style: italic;
+}
+
+div.buttons-section span {
+	color: white;
+}
+
+.top_row p {
+	margin: 0;
 }
 

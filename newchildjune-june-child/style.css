@@ -97,3 +97,25 @@ div.buttons-section span {
 	margin: 0;
 }
 
+
+
+
+
+/* Change style of product page */
+
+.owl-item .cl-small-data span.tags, .owl-item .cl-small-data p {
+	display: none;
+}
+
+.owl-item .cl-small-data .cl-actions a {
+	font-size: 13px;
+	padding: 15px !important;
+}
+
+.owl-carousel .owl-stage {
+	width: 100% !important;
+}
+
+.owl-carousel .owl-stage>div {
+	width: 33% !important;
+}

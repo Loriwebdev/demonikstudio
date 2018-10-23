@@ -23,3 +23,19 @@ if( function_exists( 'yith_wishlist_install' ) ){
     }
 
 }
+
+/**
+ * Change number of related products output
+ */ 
+function woo_related_products_limit() {
+global $product;
+    
+    $args['posts_per_page'] = 3;
+    return $args;
+}
+add_filter( 'woocommerce_output_related_products_args', 'jk_related_products_args' );
+function jk_related_products_args( $args ) {
+    $args['posts_per_page'] = 3; // 3 related products
+    $args['columns'] = 1; // arranged in 1 column
+    return $args;
+}
